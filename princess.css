@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    color : #505050;
+}
+
+.offset:before{
+display: block;
+content: "";
+height: 4rem;
+margin-top: -4rem;
+}
+/*navigation*/
+.container.jumbotron.lead{
+    font-family: 'Cambria', Georgia, Times, 'Times New Roman', serif,sans-serif;
+    color: black;
+    background-color:#a4d792;
+    
+    
+}
+.nav-link{
+    width: 120px;
+    height: 3px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    transition: all .4s ease-in-out;
+    
+    
+}
+.nav{
+    color:pink;
+    text-decoration: none;
+    font-weight: bold;
+    
+    
+}
+
+
+.nav-link:hover {
+    transform: translate(20px);
+    transition: all .4s ease-in-out;
+    
+
+}
+
+
+/* landline*/
+
+.caption{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top:38%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+.caption h1{
+    font-size: 4.8rem;
+    font-weight:700 ;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1.6rem;
+}
+.caption h3{
+    font-size: 2rem;
+    text-shadow: .1re .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+.btn-lg{
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.3rem;
+    font-size: 2.1rem;
+}
+
+.navbar-brand{
+    font-family: 'Pacifico', Georgia, Times, 'Times New Roman', serif,sans-serif;
+    color: black;
+}
+
+
+/* course section*/
+.narrow{
+    width: 75;
+    margin: 1.5rem auto;
+    padding-top: 2rem;
+}
+.narrow h1{
+    font-size: 2.4rem;
+
+}
+.btn-secondary {
+    border-width: medium;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding: .6rem 1.2rem;
+    margin: 1rem;
+    color: wheat;
+    background-color:   #aa8cc5 ;
+    border-color:  #aa8cc5;
+}
+.btn-secondary :hover {
+    background-color:  #c773c7 ;
+    border-color:  #c773c7;
+}
+/*feature section*/
+h3.heading {
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.9rem;
+
+}
+.heading-underline{
+    width: 3rem;
+    height: .2rem;
+    background-color: #aa8cc5 ;
+    margin: 0 auto 2rem;
+
+
+}
+.jumbotron{
+     background-color :#a4d792;
+     margin-bottom: 0;
+     padding: 2rem 0 3.5rem;
+     border-radius: 0;
+ }
+ 
+.feature{
+    color: black;
+}
+.feature h3 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-bottom: .4rem;
+
+}
+.feature p {
+    font-size: 1.1rem;
+}
+/* resourcea section*/
+
+.margin{
+    margin: 75% 0;
+}
+
+.parallax{
+    background: url(princesscastle.gif) repeat fixed 100%;
+
+    
+}
+.parallax-inner{
+    padding-top: 10%;
+    padding-bottom: 50%;
+    height : 800;
+    
+
+
+}
+/* client*/
+
+.clients img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+#blockqoute .svg-inline--fa {
+    color : #aa8cc5;
+    margin: 1rem;
+
+}
+
+.quote-hr{
+    border-top: .05rem solid  #aa8cc5;
+}
+
+footer{
+    background-color: #40474e;
+    color: white;
+    padding: 2rem 0 2rem;
+}
+footer img {
+    height: 3rem;
+    margin: 1.5rem;
+}
+footer a {
+    color: white;
+}
+.fa-facebook-square.fa-twitter-square.fa-instagram-square:hover{
+font-size: 1.6rem;
+margin: 1.2rem .5rem 0 0;
+color: #aa8cc5 important;
+
+}
+hr.socket{
+    width: 100%;
+    border-top: .2rem solid #666b71 ;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.home-inner{
+    background: repeat fixed 100%;
+}
+
+
+
+ .body .landing {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100wh ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    
+}
+ .card .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card  .face1 {
+
+    top: 0;
+    left: 0;
+    transition-property: left, z-index, transform;
+    transition-delay: 0s ,.5s ,.5s ;
+    transition-duration: .5s, .0s, .5s;
+    z-index: 2;
+    transform: translate(-10px, -10px);
+
+}
+.card:hover  .face1 {
+    transition-property: transform, z-index,left;
+    transition-delay: 0s ,.5s ,.5s ;
+    transition-duration: .5s, .0s, .5s;
+    transform: translate(170px, -10px);
+    z-index: 1;
+    left: -160px;
+
+}
+.card  .face2 {
+    
+    background: #111;
+    top: 0;
+    left: 0;
+    transition-property: left, z-index, transform;
+    transition-delay: 0s ,.5s ,.5s ;
+    transition-duration: .5s, .0s, .5s;
+    z-index: 1;
+}
+.card:hover  .face2 {
+    transition-property: transform, z-index,left;
+    transition-delay: 0s ,.5s ,.5s ;
+    transition-duration: .5s, .0s, .5s;
+    transform: translate(-160px, -10px);
+    z-index: 2;
+    left: 160px;
+
+}
+.card  .face1 img {
+    
+background-position: bottom;
+max-width: 100%;
+}
+
+
+.card  .face2 .content{
+    padding:10px;
+    box-sizing: border-box;
+
+}
+.card  .face2 .content h2{
+    margin: 10px 0 0;
+    padding: 0;
+    color: #fff;
+}
+
+.card  .face2 .content p{
+    margin: 10px 0 0;
+    padding: 0;
+    color: #fff;
+}
+
+.home-inner p {
+    color: black;
+    text-align: center ;
+    text-shadow: .5rem .5rem .8rem black;
+    
+   
+}
+
+
+#parallax{
+    background: url(superrealgallery.png) repeat fixed 100%;
+
+    
+}
+#parallax-inner{
+    padding-bottom: 100%;
+    
+}
+
+#parallax-inner #parallax .caption .text-center{
+    font-size: 4.8rem;
+    font-weight:500 ;
+    letter-spacing: .5rem;
+    text-shadow: .2rem .2rem .8rem black;
+    padding-bottom: 1.6rem;
+    
+}
+
+#porfolio body .data-spy{
+     font: 16px Helvetica, Sans-Serif; 
+     line-height: 24px;
+     margin: 0; 
+     padding: 0;
+
+}
+
+#page-wrap { width: 800px; 
+    margin: 40px auto 60px; 
+}
+
+#pic { float: right; 
+    margin: -30px 0 0 0;
+ }
+
+.comtact-info h1 { margin: 0 0 16px 0; 
+    padding: 0 0 16px 0; 
+    font-size: 42px; font-weight: bold;
+    letter-spacing: -2px;
+    border-bottom: 1px solid #999;
+    color: #000;
+ }
+
+ .clear h2 { 
+     font-size: 20px;
+     margin: 0 0 6px 0;
+      position: relative;
+}
+
+.clear h2 span {
+    position: absolute;
+    bottom: 0; right: 0;
+    font-style: italic; font-family: Georgia, Serif;
+    font-size: 16px; color: #999; 
+    font-weight: normal; }
+#objectives p { 
+    margin: 0 0 16px 0;
+ }
+
+ #contact-info a { 
+    color: #999; 
+    text-decoration: none;
+    border-bottom: 1px dotted #999; 
+    }
+#contact-info   a:hover {
+border-bottom-style: solid; 
+color: black;
+ }
+
+.clear ul { margin: 0 0 32px 17px;
+ }
+
+ #objective {
+      width: 500px;
+     float: left;
+     }
+#objective p {
+     font-family: Georgia, Serif; 
+    font-style: italic;
+     color: #666;
+     }
+#pic {
+    border-radius: 50%;
+    vertical-align: bottom;
+}
+/* gallery */
+
+.view .data-spy body {
+    background-color: #a4d792;;
+
+}
+.simple h1{
+  text-align: center;
+  color: black;
+  font-family: 'Pacifico', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container-all{
+  width: fit-content;
+  margin: 20px auto;
+  height: auto;
+}
+.container{
+  width: calc(33% - 6px);
+  overflow:hidden;
+  height: fit-content;
+  margin:3px;
+  padding: 0;
+  display:block;
+  position:relative;
+  float:left;
+}
+.gal img{
+  width: 100%;
+  transition-duration: .3s;
+  max-width: 100%;
+  display:block;
+  overflow:hidden;
+  cursor:pointer;
+}
+.title{
+  position:absolute;
+  display:block;
+  cursor:pointer;
+  top: 35%;
+  display: none;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 1.6em;
+  text-shadow: 1px 5px 10px black;
+  transition-duration: .3s;
+}
+.text{
+  position:absolute;
+  top: 70%;
+  cursor:pointer;
+  max-width: 80%;
+  text-align:center;
+  left: 50%;
+  text-shadow: 1px 5px 10px black;
+  font-size: 1em;
+  display:none;
+  margin-right: -50%;
+  transition-duration: .3s;
+  transform: translate(-50%, -50%) 
+}
+.container:hover .gal img{
+  transform: scale(1.2);
+  transition-duration: .3s;
+  filter: grayscale(50%);
+  opacity: .7;
+}
+.container:hover span{
+  color:white;
+  display: block;
+  transition-duration: .3s;
+}
+@media only screen and (max-width: 900px) {
+    .container {
+        width: calc(50% - 6px);
+    }
+}
+@media only screen and (max-width: 400px) {
+    .container {
+        width: 100%;
+    }
+}
