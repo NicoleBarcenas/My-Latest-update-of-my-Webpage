@@ -65,7 +65,7 @@ margin-top: -4rem;
     text-transform: uppercase;
 }
 .caption h1{
-    font-size: 4.8rem;
+    font-size: 3rem;
     font-weight:700 ;
     letter-spacing: .3rem;
     text-shadow: .1rem .1rem .8rem black;
@@ -425,9 +425,9 @@ color: black;
   float:left;
 }
 .gal img{
-  width: 100%;
+  width: 50%;
   transition-duration: .3s;
-  max-width: 100%;
+  max-width: 50%;
   display:block;
   overflow:hidden;
   cursor:pointer;
