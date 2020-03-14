@@ -11,14 +11,14 @@ body{
     overflow-x: hidden;
     color : #505050;
 }
-
+/* contact,features,quotes section */
 .offset:before{
 display: block;
 content: "";
 height: 4rem;
 margin-top: -4rem;
 }
-/*navigation*/
+/*navigation section*/
 .container.jumbotron.lead{
     font-family: 'Cambria', Georgia, Times, 'Times New Roman', serif,sans-serif;
     color: black;
@@ -51,9 +51,14 @@ margin-top: -4rem;
     
 
 }
+.navbar-brand{
+    font-family: 'Pacifico', Georgia, Times, 'Times New Roman', serif,sans-serif;
+    color: black;
+}
 
 
-/* landline*/
+
+/* for caption image center section*/
 
 .caption{
     width: 100%;
@@ -83,13 +88,9 @@ margin-top: -4rem;
     font-size: 2.1rem;
 }
 
-.navbar-brand{
-    font-family: 'Pacifico', Georgia, Times, 'Times New Roman', serif,sans-serif;
-    color: black;
-}
 
 
-/* course section*/
+/* join contact section*/
 .narrow{
     width: 75;
     margin: 1.5rem auto;
@@ -114,7 +115,7 @@ margin-top: -4rem;
     background-color:  #c773c7 ;
     border-color:  #c773c7;
 }
-/*feature section*/
+/*features section*/
 h3.heading {
     font-size: 1.9rem;
     font-weight: 700;
@@ -130,13 +131,14 @@ h3.heading {
 
 
 }
+/* background section */
 .jumbotron{
      background-color :#a4d792;
      margin-bottom: 0;
      padding: 2rem 0 3.5rem;
      border-radius: 0;
  }
- 
+ /* feature section*/
 .feature{
     color: black;
 }
@@ -149,7 +151,7 @@ h3.heading {
 .feature p {
     font-size: 1.1rem;
 }
-/* resourcea section*/
+/* scrolling section*/
 
 .margin{
     margin: 75% 0;
@@ -168,7 +170,7 @@ h3.heading {
 
 
 }
-/* client*/
+/* clients magic quote sections*/
 
 .clients img {
     width: 100%;
@@ -184,7 +186,7 @@ h3.heading {
 .quote-hr{
     border-top: .05rem solid  #aa8cc5;
 }
-
+/* footer contacts */
 footer{
     background-color: #40474e;
     color: white;
@@ -303,7 +305,7 @@ max-width: 100%;
     padding: 0;
     color: #fff;
 }
-
+/* home background and about  section*/
 .home-inner p {
     color: black;
     text-align: center ;
@@ -312,7 +314,7 @@ max-width: 100%;
    
 }
 
-
+/* moving image section */
 #parallax{
     background: url(superrealgallery.png) repeat fixed 100%;
 
@@ -331,7 +333,7 @@ max-width: 100%;
     padding-bottom: 1.6rem;
     
 }
-
+/* portfolio section */
 #porfolio body .data-spy{
      font: 16px Helvetica, Sans-Serif; 
      line-height: 24px;
@@ -398,7 +400,7 @@ color: black;
     border-radius: 50%;
     vertical-align: bottom;
 }
-/* gallery */
+/* gallery section */
 
 .view .data-spy body {
     background-color: #a4d792;;
