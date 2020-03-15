@@ -70,11 +70,11 @@ margin-top: -4rem;
     text-transform: uppercase;
 }
 .caption h1{
-    font-size: 100px;
+    font-size: 5rem;
     font-weight:700 ;
     letter-spacing: .3rem;
     text-shadow: .1rem .1rem .8rem black;
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
 }
 .caption h3{
     font-size: 2rem;
